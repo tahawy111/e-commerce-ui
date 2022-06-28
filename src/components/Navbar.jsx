@@ -6,6 +6,9 @@ import { Badge } from '@mui/material';
 
 const Container = styled.div`
   height: 60px;
+  @media (max-width: 596px) {
+    margin-bottom: 80px;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -13,6 +16,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 `;
 
 const Left = styled.div`

@@ -47,7 +47,7 @@ export const popularProducts = [
   },
   {
     id: 2,
-    img: 'https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388',
+    img: 'https://o.remove.bg/downloads/2ffc822a-25b0-4a8c-a31d-e8c1280175f3/4-48720_kids-tshirt-png-image-transparent-red-t-shirts-removebg-preview.png',
   },
   {
     id: 3,
@@ -67,7 +67,7 @@ export const popularProducts = [
   },
   {
     id: 7,
-    img: 'https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png',
+    img: 'https://www.thejacketnation.com/image/catalog/Moffit%20Distressed%20Dark%20Green%20Leather%20Jacket%20Mens/Real_Leather_Casual_Jacket__76197_zoom.jpg',
   },
   {
     id: 8,
