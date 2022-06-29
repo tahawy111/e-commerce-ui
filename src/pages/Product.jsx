@@ -1,14 +1,18 @@
-import { Add, Remove } from '@mui/icons-material';
-import styled from 'styled-components';
-import Announcement from '../components/Announcement';
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
-import Newsletter from '../components/Newsletter';
+import { Add, Remove } from "@mui/icons-material";
+import styled from "styled-components";
+import Announcement from "../components/Announcement";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import Newsletter from "../components/Newsletter";
 
 const Container = styled.div``;
 const Wrapper = styled.div`
   padding: 50px;
   display: flex;
+  @media (max-width: 596px) {
+    padding: 10px;
+    flex-direction: column;
+  }
 `;
 
 const ImgContainer = styled.div`
@@ -24,6 +28,10 @@ const Image = styled.img`
 const InfoContainer = styled.div`
   flex: 1;
   padding: 0 50px;
+  @media (max-width: 596px) {
+    padding: 10px;
+    flex-direction: column;
+  }
 `;
 
 const Title = styled.h1`
@@ -79,6 +87,10 @@ const AddContainer = styled.div`
   align-items: center;
   width: 50%;
   justify-content: space-between;
+  @media (max-width: 596px) {
+    width: 100%;
+    flex-direction: column;
+  }
 `;
 
 const AmountContainer = styled.div`
@@ -108,6 +120,10 @@ const Button = styled.button`
   &:hover {
     background-color: teal;
     color: white;
+  }
+
+  @media (max-width: 596px) {
+    margin: 10px;
   }
 `;
 

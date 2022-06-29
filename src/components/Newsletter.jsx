@@ -1,5 +1,5 @@
-import SendIcon from '@mui/icons-material/Send';
-import styled from 'styled-components';
+import SendIcon from "@mui/icons-material/Send";
+import styled from "styled-components";
 
 const Container = styled.div`
   height: 60vh;
@@ -12,11 +12,19 @@ const Container = styled.div`
 const Title = styled.h1`
   font-size: 70px;
   margin-bottom: 20px;
+  @media (max-width: 596px) {
+    font-size: 30px;
+  }
 `;
 const Desc = styled.div`
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 20px;
+  @media (max-width: 596px) {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 5px;
+  }
 `;
 const InputContainer = styled.div`
   width: 50%;

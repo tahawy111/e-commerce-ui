@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Container = styled.div`
   width: 100vw;
@@ -11,6 +11,10 @@ const Container = styled.div`
 const Wrapper = styled.div`
   padding: 20px;
   width: 40%;
+  @media (max-width: 596px) {
+    width: 80%;
+    padding: 0 0 0 5px;
+  }
 `;
 
 const Title = styled.h1`

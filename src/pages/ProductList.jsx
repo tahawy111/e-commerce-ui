@@ -1,9 +1,9 @@
-import styled from 'styled-components';
-import Announcement from '../components/Announcement';
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
-import Newsletter from '../components/Newsletter';
-import Products from '../components/Products';
+import styled from "styled-components";
+import Announcement from "../components/Announcement";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import Newsletter from "../components/Newsletter";
+import Products from "../components/Products";
 
 const Container = styled.div``;
 const Title = styled.h1`
@@ -12,9 +12,17 @@ const Title = styled.h1`
 const FilterContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  @media (max-width: 596px) {
+    flex-direction: column;
+    width: 70vw;
+  }
 `;
 const Filter = styled.div`
   margin: 20px;
+  @media (max-width: 596px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const FilterText = styled.span`

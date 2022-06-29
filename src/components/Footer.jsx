@@ -1,13 +1,17 @@
-import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import PinterestIcon from '@mui/icons-material/Pinterest';
-import RoomIcon from '@mui/icons-material/Room';
-import PhoneIcon from '@mui/icons-material/Phone';
-import EmailIcon from '@mui/icons-material/Email';
+import styled from "styled-components";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import PinterestIcon from "@mui/icons-material/Pinterest";
+import RoomIcon from "@mui/icons-material/Room";
+import PhoneIcon from "@mui/icons-material/Phone";
+import EmailIcon from "@mui/icons-material/Email";
 const Container = styled.div`
   display: flex;
+  @media (max-width: 596px) {
+    flex-direction: column;
+    margin-left: 5px;
+  }
 `;
 const Left = styled.div`
   flex: 1;
@@ -24,6 +28,9 @@ const Desc = styled.p`
 
 const SocialContainer = styled.div`
   display: flex;
+  @media (max-width: 596px) {
+    flex-direction: column;
+  }
 `;
 
 const SocialIcon = styled.div`
@@ -52,6 +59,9 @@ const List = styled.ul`
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  @media (max-width: 596px) {
+    flex-direction: column;
+  }
 `;
 const ListItem = styled.li`
   width: 50%;

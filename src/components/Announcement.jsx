@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Container = styled.div`
   height: 30px;
@@ -8,6 +8,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 14px;
+  padding: 20px 0;
 `;
 
 const Announcement = () => {

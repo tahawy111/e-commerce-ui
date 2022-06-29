@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Container = styled.div`
   width: 100vw;
@@ -11,6 +11,10 @@ const Container = styled.div`
 const Wrapper = styled.div`
   padding: 20px;
   width: 40%;
+  @media (max-width: 596px) {
+    width: 100%;
+    padding: 0 0 0 5px;
+  }
 `;
 
 const Title = styled.h1`
@@ -50,6 +54,14 @@ const Button = styled.button`
   }
 `;
 
+const Link = styled.a`
+  margin: 5px;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 5px;
+`;
+
 const Register = () => {
   return (
     <Container>
@@ -68,6 +80,9 @@ const Register = () => {
             in accordance with the <b>PRIVACY POLICY</b>
           </Agreement>
           <Button>CREATE</Button>
+          <br /> <Link>DO NOT YOU REMEMBER THE PASSWORD? </Link>
+          <br />
+          <Link>CREATE A NEW ACCOUNT</Link>
         </Form>
       </Wrapper>
     </Container>
