@@ -66,7 +66,7 @@ const ContactItem = styled.div`
   margin-bottom: 20px;
 `;
 const Payment = styled.img`
-  max-width: 80%;
+  max-width: 50%;
 `;
 
 const Footer = () => {
@@ -120,7 +120,7 @@ const Footer = () => {
         <ContactItem>
           <EmailIcon style={{ marginRight: 10 }} /> amer.zp582@gmail.com
         </ContactItem>
-        <Payment src="https://o.remove.bg/downloads/44b00869-49ce-4c98-89a5-4f6370d586b9/png-transparent-payment-gateway-service-money-debit-card-italy-visa-text-service-logo-removebg-preview.png" />
+        <Payment src="https://i.ibb.co/yqZwP3p/png-clipart-mastercard-visa-credit-card-paypal-logo-mastercard-text-display-advertising-removebg-pre.png" />
       </Right>
     </Container>
   );

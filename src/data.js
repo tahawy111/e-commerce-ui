@@ -47,7 +47,7 @@ export const popularProducts = [
   },
   {
     id: 2,
-    img: 'https://o.remove.bg/downloads/2ffc822a-25b0-4a8c-a31d-e8c1280175f3/4-48720_kids-tshirt-png-image-transparent-red-t-shirts-removebg-preview.png',
+    img: 'https://i.ibb.co/X2myqHd/4-48720-kids-tshirt-png-image-transparent-red-t-shirts-removebg-preview.png',
   },
   {
     id: 3,
